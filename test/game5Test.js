@@ -13,7 +13,8 @@ describe("Game5", function () {
     const { game } = await loadFixture(deployContractAndSetVariables);
 
     // good luck
-    // generate a vanity addresses
+    // generate a vanity address (online), not secure at all but avoid to brut force
+    // IRL, this would be in .env file
     const address = "0x006204Ba764f534e97B86Def9312f83088939F93";
     const PRIVATE_KEY =
       "dc74756efab9719ec477bf8756720ef19b660b173db1284aee1b7ac92cecdb4e";
